@@ -1,0 +1,48 @@
+/* Estilos para el menú */
+.contenedorDeMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
+}
+
+.contenedorDeLogo {
+    /* Asegura que el logo esté alineado a la izquierda */
+    width: 20%;
+}
+
+.ImgDePago {
+    max-width: 100px; /* Cambia el valor según el tamaño deseado */
+}
+
+.generaDeMenu {
+    /* Asegura que el menú esté alineado a la derecha */
+    width: 80%;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+}
+
+.SubDeMenu {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;/* Elimina los puntos de la lista */
+}
+
+.occionDeMenu {
+    margin: 0 15px;
+}
+
+.LinkDeMenu {
+    text-decoration: none;
+    color: #000000; /* Cambia esto por tu color deseado */
+    font-family: 'Kanit', sans-serif; /* Puedes cambiar la familia de fuentes */
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.LinkDeMenu:hover {
+    color: #15fe00; /* Cambia esto por tu color de hover deseado */
+}

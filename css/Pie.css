@@ -1,0 +1,8 @@
+.ContenedorDePie{
+    background-color: #E5E7E9;
+}
+
+.parrafoDePie{
+    display: flex;
+    justify-content: center;
+}

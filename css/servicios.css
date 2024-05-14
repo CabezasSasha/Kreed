@@ -1,0 +1,47 @@
+.SuplerContenedorDeServicios {
+    background-color: #212121; 
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 89%;
+    margin-left: 5%;
+    height: auto;
+    color: #ffffff;
+    border-radius: 1%;
+    margin-top: 20px; 
+}
+
+.TituloDeServicios {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.ContenedorDeServicios{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.MenuDeServicios {
+    border: #ffffff solid;
+    border-radius: 5%;
+    margin-bottom: 40px; 
+    width: 30%;
+    margin-right: 5%; 
+}
+
+.titulosDeServicios {
+    font-size:1.5rem; 
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.parrafoDeServicios {
+    font-size: 1.1rem; 
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}

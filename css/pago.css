@@ -1,0 +1,51 @@
+.contenedorDePago {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  margin: 0 5%;
+  height: auto;
+  background-color: #eeeeee;
+  border-radius: 1%;
+}
+
+.Pago {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  width: 40%;
+  padding-left: 3.5%;
+}
+
+.tituloDePago {
+  font-size: 4rem;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.parrafoDePago {
+  font-size: 20px;
+}
+
+.botonDePago {
+  background-color: #1e90ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ContenedorDeImgDePago {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ImgDePago {
+  max-width: 100%;
+  height: auto;
+}
